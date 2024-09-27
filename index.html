@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+          .loginPage{
+            background-color: rgb(167, 225, 250);
+               height: 70%;
+               width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10%;
+
+
+          }
+          .heading{
+            text-align: center;
+            height: 15px;
+           
+          }
+          .outerDiv{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            
+          } 
+          input{
+            height: 10%;
+            width: 60%;
+            border-radius: 10px;
+          }
+          .button{
+            width: 50%;
+          }
+          a{
+            padding-right: 50px;
+            text-decoration: none;
+          }
+    </style>
+</head>
+<body>
+    <div class="outerDiv">
+        
+        <div class="loginPage">
+            <h2 class="heading">Login Page</h2><br>
+            <label class="textData">Enter e-mail id </label>
+            <input type="text" placeholder="Enter email" required> <br>
+
+            <label class="textData">Enter Password</label>
+            <input type="password" placeholder="Enter Password" required><br>
+            <a href="">Forgot password ?</a><br><br>
+
+            <input class="button" type="submit" value="Login">
+        </div>
+      
+    </div>
+</body>
+</html>
