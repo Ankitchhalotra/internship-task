@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 60%;
+    height: 70%;
+    background-color: rgb(249, 228, 171); 
+    border: 2px solid black; 
+}
+
+.reg-form h1{
+ text-align: center;
+ margin-bottom: 15px;
+ font-size: 30px;
+}
+
+.reg-form input{
+   height: 5vh;
+   width: 20vw;
+}
+
+.reg-form .dropdown{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reg-form .dropdown select{  
+    margin-top: 20px; 
+    height: 30px;
+    width: 27%;  
+}
+
+.reg-form .button a{   
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+}
+.reg-form .button button{
+    margin-top: 25px;
+    height: 30px;
+    width: 60%;
+    background-color: aliceblue;
+}
+
+.reg-form .name, .contact-deatils, .password-section{
+   display: flex;
+   font-size: 18px;
+   margin: 19px 40px 5px 35px;
+   justify-content: space-between;
+}
+
+.reg-form .name .user-name, .last-name{    
+    display: flex;
+    flex-direction: column;
+}
+.reg-form .contact-deatils .email-details, .no-details{
+    display: flex;
+    flex-direction: column;
+}
+.reg-form .password-section .pass, .confirm-pass{
+    display: flex;
+    flex-direction: column;
+}
