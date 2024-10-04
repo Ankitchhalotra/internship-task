@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login page</title>
+
+    <link rel="stylesheet" href="login.css" />
+    <script src="demo.js"></script>
+  </head>
+
+  <body>
+    <section>
+      <form onsubmit="collectValue()">
+        <div class="page">
+          <h2>Login page</h2>
+          <hr />
+          <div class="data">
+            <div class="name">
+              <label class="label">Enter Email</label>
+              <input
+                id="UserEmail"
+                type="text"
+                placeholder="sample@gmail.com"
+              />
+            </div>
+            <div class="pass">
+              <label class="label">Enter Password</label>
+              <input id="UserPassword" type="password" placeholder="password" />
+            </div>
+            <a class="forget" href="">forget Password </a>
+          </div>
+
+          <div class="submit">
+            <button type="submit">Log-in</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

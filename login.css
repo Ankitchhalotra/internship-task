@@ -1,0 +1,53 @@
+
+body{
+ display :flex;
+ justify-content: center;
+ align-items:center;
+ background-color: white;
+ height :100vh;
+ width :100vw;
+}
+
+body .page{
+   background-color: rgb(159, 231, 249);
+   height : 55vh;
+   width: 30vw;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+.page h2{
+    text-align: center;
+}
+.page input{
+ width: 20vw;
+ height: 5vh;
+ border: 1px solid balck;
+ border-radius: 5px;
+}
+.page button{
+ height: 3.5vh;
+ width: 14vw;
+ background-color: aliceblue;
+}
+.page .data{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.page .data label{
+    font-size: 20px;
+}
+.page .data a{
+    font-size: 15px;  
+    text-decoration: none;
+    padding-top: 10px;
+}
+.page .data .name, .pass{
+margin-bottom: 15px;
+}
+.page .submit{
+    margin-top: 20px;
+    text-align: center;
+}
+.page .submit a{
+   text-decoration: none;
+}
