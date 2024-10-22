@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(12, 12, 12);
+  color: aliceblue;
 }
 
 .logo {
@@ -45,6 +47,7 @@
 .main .card {
   height: 50%;
   width: 100%;
+  text-align: center;
 }
 .main .card button{
   margin-left: 10px;

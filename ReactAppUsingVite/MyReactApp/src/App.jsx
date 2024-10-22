@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import PropsExample from './PropsExample'
 
 function App() {
   const [count , setCount] = useState(0)
@@ -28,11 +29,14 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <h1>Vite + React</h1>
+<hr />
       <div className="card" >
  
-        <h2>{count}</h2>
+        <h1>{count}</h1>
         <button onClick={incNum}>Increment</button>
-        <button onClick={decNum}>Decrement</button>
+        <button onClick={decNum}>Decrement</button><br />
+
+        <PropsExample/>
 
       </div>
       </div>
