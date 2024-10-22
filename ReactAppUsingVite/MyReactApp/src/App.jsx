@@ -29,7 +29,7 @@ function App() {
         </a>
         <h1>Vite + React</h1>
       <div className="card" >
-
+ 
         <h2>{count}</h2>
         <button onClick={incNum}>Increment</button>
         <button onClick={decNum}>Decrement</button>
