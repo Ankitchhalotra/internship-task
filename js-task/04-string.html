@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let str = prompt("enter string");
+    
+    let length = str.length;
+    console.log("length is :",length);
+    if(str==''){
+        console.log('enter a valid string');
+    } else {
+        let index = prompt("enter index for remove char");
+    if(index > length){
+        console.log('enter valid index between 0 to ',length)
+    } else {
+        let newStr = str.replace(str.charAt(index), ' ');
+        console.log('update string are : ', newStr);
+    }
+    }
+</script>
+</html>

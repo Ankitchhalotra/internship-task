@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let num1 = prompt('Enter first value');
+    let num2 = prompt('Enter Second value');
+    let num3 = prompt('Enter Third value');
+
+    console.log(num1);
+
+    // if(num1===null || num2===null ||num3===null){
+    //     document.write('enter values in all filds');
+    // }
+
+   const res1 = num1%10;
+   const res2 = num2%10;
+   const res3 = num3%10;
+
+   if(res1 === res2){
+      if(res1 === res3){
+        document.write("all are same last digit");
+      }
+   } else{
+    document.write("last digit are not same");
+   }
+</script>
+</html>

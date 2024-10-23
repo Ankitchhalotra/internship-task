@@ -1,0 +1,16 @@
+<script>
+    let num = prompt("Enter positive number");
+
+    if(num < 0){
+        console.log('enter only positve number'); 
+    }
+
+    let res1 = num%3;
+    let res2 = num%7;
+
+    if(res1==0 && res2==0){
+        console.log('number is multiple of 3 and 7');
+    } else {
+        console.log('not a multiple of 3 and 7');
+    }
+</script>
